@@ -1,0 +1,17 @@
+name: PayAll
+version: 1.0.0
+api: [5.0.0]
+main: Wildan\payall\PayAll
+description: PayAll Plugin with EconomyAPI integration
+
+commands:
+  payall:
+    description: Pay money to all online players
+    usage: /payall <amount>
+    permission: payall.command
+    aliases: [py]
+
+permissions:
+  payall.command:
+    default: op
+    description: Allows players to use the /payall command
