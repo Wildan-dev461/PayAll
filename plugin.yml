@@ -3,6 +3,7 @@ version: 1.0.0
 api: [5.0.0]
 main: Wildan\payall\PayAll
 description: PayAll Plugin with EconomyAPI integration
+softdepend: EconomyAPI
 
 commands:
   payall:
