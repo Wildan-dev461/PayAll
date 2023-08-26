@@ -8,6 +8,7 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
+use pocketmine\console\ConsoleCommandSender;
 use pocketmine\player\Player;
 use onebone\economyapi\EconomyAPI;
 
